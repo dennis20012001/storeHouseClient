@@ -2,8 +2,35 @@
     <string name="app_name">StoreHouseClient</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="user_1">Usuario 1</string>
-    <string name="user_2">Usuario 2</string>
-    <string name="user_3">Usuario 3</string>
-    <string name="user_4">Usuario 4</string>
+    <string name="selecciona_un_perfil">Selecciona un perfil</string>
+    <string name="Usuario_1"></string>
+    <string name="imagen_de_perfil_del_user1">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user2">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user3">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user4">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user5">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user6">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user7">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user8">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user9">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user10">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user11">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user12">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user13">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user14">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user15">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user16">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user17">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user18">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user19">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user20">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user21">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user22">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user23">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user24">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user25">Imagen de perfil</string>
+    <string name="imagen_de_perfil_del_user26">Imagen de perfil</string>
+
+    <string name="nombre_apellido">Nombre apellido</string>
+
 </resources>
