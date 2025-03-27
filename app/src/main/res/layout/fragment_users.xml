@@ -10,7 +10,7 @@
     <LinearLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -21,7 +21,7 @@
             android:background="#B0D3D3"
             android:gravity="center"
             android:paddingBottom="16dp"
-            android:text="Selecciona un perfil"
+            android:text="@string/selecciona_un_perfil"
             android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -49,8 +49,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user1"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name"
@@ -58,7 +58,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -79,8 +79,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user2"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name2"
@@ -88,7 +88,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -109,8 +109,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user3"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name3"
@@ -118,7 +118,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -139,8 +139,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user4"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name4"
@@ -148,7 +148,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -169,8 +169,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user5"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name5"
@@ -178,7 +178,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -199,8 +199,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user6"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name6"
@@ -208,7 +208,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -229,8 +229,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user7"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name7"
@@ -238,7 +238,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -259,8 +259,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user8"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name8"
@@ -268,7 +268,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -276,7 +276,7 @@
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_margin="8dp"
                 android:background="#FFFFFF"
                 android:elevation="4dp"
@@ -285,12 +285,11 @@
                 android:padding="42dp">
 
                 <ImageView
-                    android:id="@+id/profile_image9"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user9"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name9"
@@ -298,7 +297,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -319,8 +318,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user10"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name10"
@@ -328,37 +327,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
-                    android:textColor="#4A7B7B"
-                    android:textSize="14sp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:background="#FFFFFF"
-                android:elevation="4dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="42dp">
-
-                <ImageView
-                    android:id="@+id/profile_image11"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
-
-                <TextView
-                    android:id="@+id/profile_name12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -379,8 +348,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user12"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name12"
@@ -388,7 +357,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -408,8 +377,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user13"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name13"
@@ -417,7 +386,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -438,8 +407,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user14"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name14"
@@ -447,7 +416,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -468,8 +437,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user15"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name15"
@@ -477,7 +446,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -498,8 +467,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user16"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name16"
@@ -507,7 +476,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -528,8 +497,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user17"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name17"
@@ -537,7 +506,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -558,8 +527,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user18"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name18"
@@ -567,7 +536,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -588,8 +557,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user19"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name19"
@@ -597,7 +566,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -618,8 +587,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user20"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name20"
@@ -627,7 +596,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -648,8 +617,9 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user21"
+                    android:src="@drawable/usuario" />
+
 
                 <TextView
                     android:id="@+id/profile_name21"
@@ -657,7 +627,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
+                    android:text="@string/nombre_apellido"
                     android:textColor="#4A7B7B"
                     android:textSize="14sp" />
 
@@ -678,8 +648,9 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user22"
+                    android:src="@drawable/usuario" />
+
 
                 <TextView
                     android:id="@+id/profile_name22"
@@ -687,8 +658,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
                     android:textColor="#4A7B7B"
+                    android:text="@string/nombre_apellido"
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -708,8 +679,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user23"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name23"
@@ -717,8 +688,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
                     android:textColor="#4A7B7B"
+                    android:text="@string/nombre_apellido"
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -738,8 +709,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/circle_shape"
-                    android:contentDescription="Imagen de perfil"
-                    android:src="@drawable/Usuario" />
+                    android:contentDescription="@string/imagen_de_perfil_del_user24"
+                    android:src="@drawable/usuario" />
 
                 <TextView
                     android:id="@+id/profile_name24"
@@ -747,8 +718,37 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="4dp"
-                    android:text="Nombre Apellido"
                     android:textColor="#4A7B7B"
+                    android:text="@string/nombre_apellido"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#FFFFFF"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="42dp">
+
+                <ImageView
+                    android:id="@+id/profile_image11"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/circle_shape"
+                    android:contentDescription="@string/imagen_de_perfil_del_user11"
+                    android:src="@drawable/usuario" />
+
+                <TextView
+                    android:id="@+id/profile_name11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:textColor="#4A7B7B"
+                    android:text="@string/nombre_apellido"
                     android:textSize="14sp" />
 
             </LinearLayout>
