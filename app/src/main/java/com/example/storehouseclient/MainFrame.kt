@@ -1,35 +1,34 @@
 package com.example.storehouseclient
 
-import Users
 import android.os.Bundle
-import android.util.Log
+import android.view.View
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
+import androidx.fragment.app.Fragment
+import com.example.storehouseclient.ui.UsersFragment
 
 class MainFrame : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        val api = RetrofitClient.instance
+        val welcomeText: TextView = findViewById(R.id.welcomeText)
+        val fragmentContainer: View = findViewById(R.id.fragment_container)
 
-        api.getUsers().enqueue(object : Callback<List<Users>> {
-            override fun onResponse(call: Call<List<Users>>, response: Response<List<Users>>) {
-                if (response.isSuccessful) {
-                    val users = response.body()
-                    Log.d("Retrofit", "Usuarios: $users")
-                } else {
-                    Log.e("Retrofit", "Error: ${response.code()}")
-                }
-            }
+        welcomeText.setOnClickListener {
+            welcomeText.visibility = View.GONE
+            fragmentContainer.visibility = View.VISIBLE
 
-            override fun onFailure(call: Call<List<Users>>, t: Throwable) {
-                Log.e("Retrofit", "Error en la conexión: ${t.message}")
-            }
-        })
+            replaceFragment(UsersFragment())
+        }
     }
-}
+
+    private fun replaceFragment(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+            .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
+            .replace(R.id.fragment_container, fragment)
+            .commit()
+    }    }

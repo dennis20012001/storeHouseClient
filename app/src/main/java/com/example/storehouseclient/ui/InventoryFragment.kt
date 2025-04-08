@@ -1,4 +1,4 @@
-package com.example.storehouseclient.UI
+package com.example.storehouseclient.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

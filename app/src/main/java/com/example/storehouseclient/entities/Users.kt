@@ -1,7 +1,7 @@
 import com.google.gson.annotations.SerializedName
 
 data class Users(
-    @SerializedName("id_user")
+    @SerializedName("idUser")
     val idUser: Long?,
 
     @SerializedName("name")
@@ -11,7 +11,7 @@ data class Users(
     val mail: String?,
 
     @SerializedName("image")
-    val image: ByteArray?,
+    val image: String?,
 
     @SerializedName("pass")
     val pass: String?,
