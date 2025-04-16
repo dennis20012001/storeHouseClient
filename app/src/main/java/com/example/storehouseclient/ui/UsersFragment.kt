@@ -8,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.storehouseclient.R
 import com.example.storehouseclient.adapters.UserAdapter
@@ -25,7 +24,7 @@ class UsersFragment : Fragment() {
     private lateinit var userAdapter: UserAdapter
     private var userList: List<Users> = mutableListOf()
 
-    private val BASE_URL = "http://10.0.2.2:8080/"
+    val BASE_URL = "http://10.0.2.2:8080/"
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -58,7 +57,7 @@ class UsersFragment : Fragment() {
         api.getUsers().enqueue(object : Callback<List<Users>> {
             override fun onResponse(call: Call<List<Users>>, response: Response<List<Users>>) {
                 if (response.isSuccessful) {
-                    userList = response.body() ?: emptyList()
+                    userList = (response.body() ?: emptyList()).filter { it.enabled }
 
                     for (user in userList) {
                         Log.d("API", "Usuario: ${user.name}, Imagen: ${user.image}")

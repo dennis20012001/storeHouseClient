@@ -9,12 +9,12 @@ import retrofit2.http.POST
 import retrofit2.http.Path
 
 interface UserApi {
-    @GET("api/users")
+    @GET("api/users/getAll")
     fun getUsers(): Call<List<Users>>
 
-    @POST("api/users")
+    @POST("api/users/save")
     fun addUser(@Body user: Users): Call<Users>
 
-    @DELETE("api/users/{id}")
+    @DELETE("api/users/delete/{id}")
     fun deleteUser(@Path("id") id: Long): Call<Void>
 }
